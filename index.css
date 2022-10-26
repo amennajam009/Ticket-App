@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+h1{
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    color: black;
+}
+ 
+
+
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.np {
+    padding: 0px;
+}
+
+/* .featuredPropBox {} */
+
+.featuredPropBox ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: outside none none;
+    padding: 0;
+}
+
+.featuredPropBox ul li {
+    background-color: #eeeeee;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    height: 350px;
+    margin: 7px;
+    width: 45%;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.featuredPropBox ul li:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(22, 22, 22, 0.6);
+    transition: all 0.3s;
+}
+
+.featuredPropBox ul li:nth-child(1) {
+    background-image: url('pic/download\ \(4\).jfif');
+   
+}
+
+.featuredPropBox ul li:nth-child(2) {
+    background-image: url('pic/sucide.jfif');
+}
+
+.featuredPropBox ul li:nth-child(3) {
+    background-image: url('pic/breakingbad.png');
+}
+
+.featuredPropBox ul li:nth-child(4) {
+    background-image: url('pic/spiderman.jfif');
+}
+
+.featuredPropBox ul li:nth-child(5) {
+    background-image: url('pic/Rick\ and\ Morty\ Watch\ Maxi\ Poster.jfif');
+}
+.featuredPropBox ul li:nth-child(6) {
+    background-image: url('pic/dark1.jfif');
+}
+
+.featuredPropBox ul li:nth-child(7) {
+    background-image: url('pic/The\ Good\ the\ Bad\ and\ the\ Ugly\ by\ crilleb50\ on\ DeviantArt.jfif');
+}
+
+.featuredPropBox ul li:nth-child(8) {
+    background-image: url('pic/MR\ ROBOT.jfif');
+}
+
+.featuredPropBox ul li:nth-child(9) {
+    background-image: url('pic/demon.png');
+}
+.featuredPropBox ul li:nth-child(10) {
+    background-image: url('pic/𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋\ 𝐀𝐑𝐓𝐒༘\ __\ Levi_.jfif');
+}
+
+.featuredPropBox ul li .fplogo {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.featuredPropBox ul li .fplogo img {
+    width: 100%;
+}
+
+.featuredPropBox ul li .fptext {
+    display: none;
+    font-size: 16px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease 0s;
+    width: 65%;
+    z-index: 1;
+}
+
+.featuredPropBox ul li .fptext p {
+    color: #fff;
+    margin: 0px;
+}
+
+.featuredPropBox ul li:hover {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2) inset;
+}
+
+.featuredPropBox ul li:hover:after {
+    background-color: rgba(22, 22, 22, 0.3);
+}
+
+.featuredPropBox ul li:hover .fplogo {
+    display: none;
+}
+
+.featuredPropBox ul li:hover .fptext {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.down{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert{
+    width: 60%;
+    background: rgb(0, 255, 106);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}
+/* 
+input[type=number]{
+    -moz-appearance: textfield;
+} */
+
+
+
+
+
+
+
+
+
+
+.item-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-wrap .item-block {
+    width: 50%;
+    margin: 0 10px;
+    padding: 15px;
+    border: solid 1px #cccccc;
+    border-radius: 6px;
+}
+
+.item {
+    background: #eaeaea;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.cart-wrap .add {
+    height: 35px;
+    min-width: 150px;
+    background: green;
+    cursor: pointer;
+    border-radius: 6px;
+    ;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    ;
+}
+
+
+
+.cart-wrap .removeItem {
+    height: 35px;
+    min-width: 150px;
+    background: red;
+    cursor: pointer;
+    border-radius: 6px;
+    ;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    ;
+}
+
+#cartItems .itemDetails {
+    border-bottom: solid 1px #cccccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.overflow .add {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 34px;
+    background: black;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+.item-detail h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.item-detail .price {
+    margin: 15px 0 0 0;
+    font-size: 23px;
+    color: #02aa3c;
+    font-weight: 700;
+}
+
+.item-detail .price:before {
+    content: "$";
+    left: 0;
+    top: 0;
+    position: relative;
+}
+
+.heading h1 {
+    margin: 0 0 15px 0;
+
+}
+
+ol#list-item {
+    padding-left: 0;
+}
+
+ol#list-item li {
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    background: lightblue;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+ol#list-item li .remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: red;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+#cart-items .total-text {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+}
+
+#cart-items .total-text span {
+    font-weight: 700;
+}
